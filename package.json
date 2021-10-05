@@ -1,0 +1,37 @@
+{
+  "name": "reqhttptest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/eboko1/reqhttptest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "10.21.0"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/eboko1/reqhttptest/issues"
+  },
+  "homepage": "https://gitlab.com/eboko1/reqhttptest#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.4",
+    "pg": "^8.2.2",
+    "postgresql": "0.0.1"
+  },
+  "devDependencies": {},
+  "description": "My website deployed on heroku, follow the link https://schoolfv.herokuapp.com/"
+}
